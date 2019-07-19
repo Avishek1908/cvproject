@@ -1,0 +1,362 @@
+Questions,Answers,Skills
+What are JavaScript Data Types?,"Number
+String
+Boolean
+Object
+Undefined",Scripting language (eg:JavaScript)
+What is 'this' keyword in JavaScript?,This' keyword refers to the object from where it was called,Scripting language (eg:JavaScript)
+"Explain the difference between ""=="" and ""===""?","""=="" checks only for equality in value whereas ""==="" is a stricter equality test and returns false if either the value or the type of the two variables are different.",Scripting language (eg:JavaScript)
+How are DOM utilized in JavaScript?,"DOM stands for Document Object Model and is responsible for how various objects in a document interact with each other. DOM is required for developing web pages, which includes objects like paragraph, links, etc. These objects can be operated to include actions like add or delete. DOM is also required to add extra capabilities to a web page. On top of that, the use of API gives an advantage over other existing models.",Scripting language (eg:JavaScript)
+What is called Variable typing in Javascript?,Variable typing is used to assign a number to a variable and the same variable can be assigned to a string.,Scripting language (eg:JavaScript)
+What is the use of Void(0)?,"Void(0) is used to prevent the page from refreshing and parameter ""zero"" is passed while calling.
+
+Void(0) is used to call another method without refreshing the page.",Scripting language (eg:JavaScript)
+How to add one new element at end of an array in javascript?,Push method adds one or more elements to the end of an array and returns the new length of the array,Scripting language (eg:JavaScript)
+"Difference between ""var"" and ""let"" keywords?","Var was there from the beginning but the let was introduced in ES2015/ES6.
+Let has block scope and “Var” has function scope",Scripting language (eg:JavaScript)
+What is prototypal Inheritance?,"Every object has a property called a prototype, where we can add methods to it and when you create another object from these the newly created object will automatically inherit its parent’s property.",Scripting language (eg:JavaScript)
+What are JavaScript Cookies,Cookies are the small test files stored in a computer and it gets created when the user visits the websites to store information that they need. Example could be User Name details and shopping cart information from the previous visits.,Scripting language (eg:JavaScript)
+Whether JavaScript has concept level scope?No,No. JavaScript does not have concept level scope. The variable declared inside the function has scope inside the function.,Scripting language (eg:JavaScript)
+What is the difference between ViewState and SessionState?,"ViewState' is specific to a page in a session.
+
+'SessionState' is specific to user specific data that can be accessed across all pages in the web application",Scripting language (eg:JavaScript)
+Explain how can you submit a form using JavaScript?,To submit a form using JavaScript use document.form[0].submit();,Scripting language (eg:JavaScript)
+What is break and continue statements?,"Break statement exits from the current loop.
+
+Continue statement continues with next statement of the loop.",Scripting language (eg:JavaScript)
+Explain window.onload and onDocumentReady?,"The onload function is not run until all the information on the page is loaded. This leads to a substantial delay before any code is executed.
+
+onDocumentReady loads the code just after the DOM is loaded. This allows early manipulation of the code.",Scripting language (eg:JavaScript)
+Define event bubbling?,"JavaScript allows DOM elements to be nested inside each other. In such a case, if the handler of the child is clicked, the handler of parent will also work as if it were clicked too.",Scripting language (eg:JavaScript)
+How can we read the properties of an object in js?,Can write and read properties of an object using the dot(.) notation.,Scripting language (eg:JavaScript)
+How to define an anonymous function?,An anonymous function can be defined in a similar way as a normal function but it would not have any name.,Scripting language (eg:JavaScript)
+"Which type of variable among global and local, takes precedence over other if names are same?","A local variable takes precedence over a global variable with the same name.
+",Scripting language (eg:JavaScript)
+,,Scripting language (eg:JavaScript)
+What is an object?,"The Object is the real-time entity having some state and behavior. In Java, Object is an instance of the class having the instance variables as the state of the object and the methods as the behavior of the object. The object of a class can be created by using the new keyword.",Object oriented language(eg:Java/C++)
+What is “this” keyword in java?   ,"Within an instance method or a constructor, this is a reference to the current object — the object whose method or constructor is being called. You can refer to any member of the current object from within an instance method or a constructor by using this.  ",Object oriented language(eg:Java/C++)
+Which class is the superclass for every class ?,Object class,Object oriented language(eg:Java/C++)
+Which class is the superclass for all the classes?,The object class is the superclass of all other classes in Java.,Object oriented language(eg:Java/C++)
+How many types of constructors are used in Java?  ,Default Constructor and Parameterized Constructor,Object oriented language(eg:Java/C++)
+Can we overload the constructors?,"Yes, the constructors can be overloaded by changing the number of  arguments accepted by the constructor or by changing the data type of the parameters.",Object oriented language(eg:Java/C++)
+What are the main uses of the super keyword?,"There are the following uses of super keyword.
+
+super can be used to refer to the immediate parent class instance variable.
+super can be used to invoke the immediate parent class method.
+super() can be used to invoke immediate parent class constructor.",Object oriented language(eg:Java/C++)
+Can we override private methods in Java?,"No, a private method cannot be overridden since it is not visible                                                                                            from any other class",Object oriented language(eg:Java/C++)
+Can you use this() and super() both in a constructor?,"No, because this() and super() must be the first statement in the class constructor.",Object oriented language(eg:Java/C++)
+Can we overload the main() method?,"Yes, we can have any number of main methods in a Java program by using method overloading.",Object oriented language(eg:Java/C++)
+What do you understand by copy constructor in Java?,"There is no copy constructor in java. However, we can copy the values from one object to another like copy constructor in C++.
+
+There are many ways to copy the values of one object into another in java. They are:
+
+By constructor
+By assigning the values of one object into another
+By clone() method of Object class",Object oriented language(eg:Java/C++)
+What are the restrictions that are applied to the Java static methods?,"Two main restrictions are applied to the static methods.
+
+The static method can not use non-static data member or call the non-static method directly.
+this and super cannot be used in static context as they are non-static.",Object oriented language(eg:Java/C++)
+What if the static modifier is removed from the signature of the main method?,"Program compiles. However, at runtime, It throws an error ""NoSuchMethodError.""",Object oriented language(eg:Java/C++)
+Can we overload the main() method?,"Yes, we can have any number of main methods in a Java program by using method overloading.",Object oriented language(eg:Java/C++)
+Can we declare a constructor as final?,The constructor can never be declared as final because it is never inherited. ,Object oriented language(eg:Java/C++)
+What is the difference between the final method and abstract method?,The main difference between the final method and abstract method is that the abstract method cannot be final as we need to override them in the subclass to give its definition.,Object oriented language(eg:Java/C++)
+What is the difference between static binding and dynamic binding?,"In case of the static binding, the type of the object is determined at compile-time whereas, in the dynamic binding, the type of the object is determined at runtime.
+",Object oriented language(eg:Java/C++)
+Can there be an abstract method without an abstract class?,"No, if there is an abstract method in a class, that class must be abstract.",Object oriented language(eg:Java/C++)
+What is a marker interface?,"A Marker interface can be defined as the interface which has no data member and member functions. For example, Serializable, Cloneable are marker interfaces. The marker interface can be declared as follows.",Object oriented language(eg:Java/C++)
+What is the package?,"A package is a group of similar type of classes, interfaces, and sub-packages. It provides access protection and removes naming collision. The packages in Java can be categorized into two forms, inbuilt package, and user-defined package. There are many built-in packages such as Java, lang, awt, javax, swing, net, io, util, sql, etc. Consider the following example to create a package in Java.",Object oriented language(eg:Java/C++)
+What is zip() function in Python?,"The Python zip() function is used to transform multiple lists, i.e., list1, list2, list3 and many more into a single list of tuples. This method takes an iterable and returns a tuple of the iterable. If we don't pass iterable, it returns an empty iterator.",Coding and problem solving skills (C/Python)
+What is Python's parameter passing mechanism?,"There are two parameters passing mechanism in Python:
+
+Pass by references
+Pass by value",Coding and problem solving skills (C/Python)
+What is swapcase() function in the Python?,It is a string's function which converts all uppercase characters into lowercase and vice versa,Coding and problem solving skills (C/Python)
+How to remove whitespaces from a string in Python?,"To remove the whitespaces and trailing spaces from the string, Python providies strip([str]) built-in function",Coding and problem solving skills (C/Python)
+Why do we use join() function in Python?,This method is used to concatenate a string with an iterable object. It returns a new string which is the concatenation of the strings in iterable. ,Coding and problem solving skills (C/Python)
+What is tuple in Python?,"A tuple is a built-in data collection type. It allows us to store values in a sequence. It is immutable, so no change is reflected in the original data.",Coding and problem solving skills (C/Python)
+What is a NULL pointer in C?,"A pointer that doesn't refer to any address of value but NULL is known as a NULL pointer. When we assign a '0' value to a pointer of any type, then it becomes a Null pointer.",Coding and problem solving skills (C/Python)
+What functions are used for dynamic memory allocation in C language?, malloc() calloc() realloc() free(),Coding and problem solving skills (C/Python)
+What is the purpose of sprintf() function?,"The sprintf() stands for ""string print."" The sprintf() function does not print the output on the console screen. It transfers the data to the buffer. It returns the total number of characters present in the string.",Coding and problem solving skills (C/Python)
+Can we compile a program without main() function?,"Yes, we can compile, but it can't be executed.
+
+But, if we use #define, we can compile and run a C program without using the main() function.",Coding and problem solving skills (C/Python)
+What is the difference between getch() and getche()?,"The getch() function reads a single character from the keyboard. It doesn't use any buffer, so entered data will not be displayed on the output screen.
+
+The getche() function reads a single character from the keyword, but data is displayed on the output screen. ",Coding and problem solving skills (C/Python)
+What is a decorator?,A decorator is a function that adds functionality to another function without modifying it. It wraps another function to add functionality to it.,Coding and problem solving skills (C/Python)
+What is a Counter in Python?,The function Counter() from the module ‘collections’. It counts the number of occurrences of the elements of a container.,Coding and problem solving skills (C/Python)
+Differentiate between the append() and extend() methods of a list.,"The methods append() and extend() work on lists. While append() adds an element to the end of the list, extend adds another list to the end of a list.",Coding and problem solving skills (C/Python)
+What are different storage class specifiers in C,"auto, register, static, extern",Coding and problem solving skills (C/Python)
+What is difference between i++ and ++i?,"1) The expression ‘i++’ returns the old value and then increments i. The expression ++i increments the value and returns new value.
+2) Precedence of postfix ++ is higher than that of prefix ++.
+3) Associativity of postfix ++ is left to right and associativity of prefix ++ is right to left.
+4) In C++, ++i can be used as l-value, but i++ cannot be. In C, they both cannot be used as l-value.",Coding and problem solving skills (C/Python)
+Can a variable be both const and volatile?,"yes, the const means that the variable cannot be assigned a new value. The value can be changed by other code or pointer.",Coding and problem solving skills (C/Python)
+What is the difference between including the header file with-in angular braces < > and double quotes ” “?," If a header file is included within < > then the compiler searches for the particular header file only within the built-in include path. If a header file is included within ” “, then the compiler searches for the particular header file first in the current working directory, if not found then in the built-in include path.",Coding and problem solving skills (C/Python)
+What are stack and heap areas?,"Heap Area:It is used for the objects allocated dynamically (Using malloc() and calloc()).
+Stack Area:It is used to store local variables and arguments of a method. This stays in memory only till the termination of that particular method.",Coding and problem solving skills (C/Python)
+What is memory leak?," Why it should be avoided
+Ans: Memory leak occurs when programmers create a memory in heap and forget to delete it. ",Coding and problem solving skills (C/Python)
+What is the difference between supervised and unsupervised machine learning?,"Supervised learning requires training using labelled data. For example, in order to do classification, which is a supervised learning task, you’ll first need to label the data you’ll use to train the model to classify data into your labelled groups. Unsupervised learning, in divergence, does not require labeling data explicitly.",Machine learning/ Deep learning
+How KNN is different from k-means clustering?,"The crucial difference between both is, K-Nearest Neighbor is a supervised classification algorithm, whereas k-means is an unsupervised clustering algorithm.",Machine learning/ Deep learning
+When should you use classification over regression?,"Classification and Regression are both different in meaning. Classification produces discreate values while Regression gives you continuous results. You would use classification over regression, for example, when you wanted to know whether a name was male or female rather than just how correlated they were with male and female names.",Machine learning/ Deep learning
+Why Are Deep Networks Better Than Shallow Ones?,"
+Both shallow and deep networks are capable of approximating any function. For the same level of accuracy, deeper networks can be much more efficient in terms of computation and number of parameters. Deeper networks are able to create deep representations, at every layer, the network learns a new, more abstract representation of the input.",Machine learning/ Deep learning
+Why is “Naive” Bayes naive?,"Despite its practical applications, especially in text mining, Naive Bayes is considered “Naive” because it makes an assumption that is virtually impossible to see in real-life data: the conditional probability is calculated as the pure product of the individual probabilities of components. This implies the absolute independence of features — a condition probably never met in real life.",Machine learning/ Deep learning
+What’s the difference between Type I and Type II error?,"Type I error is a false positive, while Type II error is a false negative. Briefly stated, Type I error means claiming something has happened when it hasn’t, while Type II error means that you claim nothing is happening when in fact something is.",Machine learning/ Deep learning
+"What is deep learning, and how does it contrast with other machine learning algorithms?","Deep learning is a subset of machine learning that is concerned with neural networks: how to use backpropagation and certain principles from neuroscience to more accurately model large sets of unlabelled or semi-structured data. In that sense, deep learning represents an unsupervised learning algorithm that learns representations of data through the use of neural nets.",Machine learning/ Deep learning
+"Which is more important to you– model accuracy, or model performance?",it has everything to do with how model accuracy is only a subset of model performance,Machine learning/ Deep learning
+What’s the F1 score? How would you use it?,"The F1 score is a measure of a model’s performance. It is a weighted average of the precision and recall of a model, with results tending to 1 being the best, and those tending to 0 being the worst. You would use it in classification tests where true negatives don’t matter much.",Machine learning/ Deep learning
+How do you ensure you’re not overfitting with a model?,"1- Keep the model simpler: reduce variance by taking into account fewer variables and parameters, thereby removing some of the noise in the training data.
+
+2- Use cross-validation techniques such as k-folds cross-validation.
+
+3- Use regularization techniques such as LASSO that penalize certain model parameters if they’re likely to cause overfitting.",Machine learning/ Deep learning
+You are given a data set. The data set has missing values which spread along 1 standard deviation from the median. What percentage of data would remain unaffected? Why?,"Since, the data is spread across median, let’s assume it’s a normal distribution. We know, in a normal distribution, ~68% of the data lies in 1 standard deviation from mean (or mode, median), which leaves ~32% of the data unaffected. Therefore, ~32% of the data would remain unaffected by missing values.
+
+ ",Machine learning/ Deep learning
+"Explain prior probability, likelihood and marginal likelihood in context of naiveBayes algorithm?","Prior probability is nothing but, the proportion of dependent (binary) variable in the data set. It is the closest guess you can make about a class, without any further information. For example: In a data set, the dependent variable is binary (1 and 0). The proportion of 1 (spam) is 70% and 0 (not spam) is 30%. Hence, we can estimate that there are 70% chances that any new email would  be classified as spam.
+
+Likelihood is the probability of classifying a given observation as 1 in presence of some other variable. For example: The probability that the word ‘FREE’ is used in previous spam message is likelihood. Marginal likelihood is, the probability that the word ‘FREE’ is used in any message.",Machine learning/ Deep learning
+What is weight initialization in neural networks?,Weight initialization is one of the very important steps. A bad weight initialization can prevent a network from learning but good weight initialization helps in giving a quicker convergence and a better overall error. Biases can be generally initialized to zero. The rule for setting the weights is to be close to zero without being too small.,Machine learning/ Deep learning
+"Is it OK to connect from a Layer 4 output back to a Layer 2 input?
+","Yes, this can be done considering that layer 4 output is from previous time step like in RNN. Also, we need to assume that previous input batch is sometimes- correlated with current batch.",Machine learning/ Deep learning
+What is the role of the activation function?,The activation function is used to introduce non-linearity into the neural network helping it to learn more complex function. Without which the neural network would be only able to learn linear function which is a linear combination of its input data.,Machine learning/ Deep learning
+What is inductive reasoning machine learning?,"
+The idea of inductive justification mainly aids in making right judgments based on the previously assembled pieces of evidence and data. Inductive reasoning operates mostly the entire function of analytical learning and is highly beneficial for taking accurate decisions and theoretical assumptions in complicated project works.",Machine learning/ Deep learning
+What is the use of Fourier Transform in Deep Learning?,"
+The particular package is highly efficient for analyzing and managing and maintaining large databases. The software is infused with a high-quality feature called the spectral portrayal, and you can effectively utilize it to generate real-time array data. This is extremely helpful for processing all categories of signals.",Machine learning/ Deep learning
+Explain the theory of autonomous form of deep learning in few words,"There are multiple forms and categories of the particular subject, but the autonomous pattern indicates independent or unspecified mathematical bases that are free from any specific categorizer or formula.",Machine learning/ Deep learning
+How do you handle missing or corrupted data in a dataset?,"You could find missing/corrupted data in a dataset and either drop those rows or columns, or decide to replace them with another value. In Pandas, there are two very useful methods: isnull() and dropna() that will help you find columns of data with missing or corrupted data and drop those values. If you want to fill the invalid values with a placeholder value (for example, 0), you could use the fillna() method.",Machine learning/ Deep learning
+What are the Cloud Service Models?,"Infrastructure as a service (IaaS)
+Platform as a service (PaaS)
+Software as a service (SaaS)","Cloud, Development (web/ android studio/ react native/ software development)"
+Mention the key components of AWS,"Simple Storage Device or (S3),Elastic Compute Cloud (EC2),Elastic Block Store (EBS),Cloud Watch","Cloud, Development (web/ android studio/ react native/ software development)"
+What is an AMI? How do we implement it?,"AMI stands for Amazon Machine Image. It is basically a copy of the root file system.
+Provides the data required to launch an instance, which means a copy of running an AMI server in the cloud. It’s easy to launch an instance from many different AMIs.
+Hardware servers that commodities bios which exactly point the master boot record of the first block on a disk. A disk image is created which can easily fit anywhere physically on a disk .Where Linux can boot from an arbitrary location on the EBS storage network.","Cloud, Development (web/ android studio/ react native/ software development)"
+Which platforms are used for large scale cloud computing?,"Apache Hadoop
+MapReduce","Cloud, Development (web/ android studio/ react native/ software development)"
+What is the difference between scalability and elasticity?,"Scalability is a characteristic of cloud computing which is used to handle the increasing workload by increasing in proportion amount of resource capacity. By the use of scalability, the architecture provides on demand resources if the requirement is being raised by the traffic. Whereas, Elasticity is a characteristic which provides the concept of commissioning and decommissioning of large amount of resource capacity dynamically. It is measured by the speed by which the resources are coming on demand and the usage of the resources.
+","Cloud, Development (web/ android studio/ react native/ software development)"
+What do you mean by CaaS?,"CaaS is a terminology used in telecom industry as Communication As a Service. CaaS offers the enterprise user features such as desktop call control, unified messaging and desktop faxing.","Cloud, Development (web/ android studio/ react native/ software development)"
+Which are the different layers that define cloud architecture?,"Cluster Controller
+SC or Storage Controller
+NC or Node Controller
+CLC or Cloud Controller
+Walrus","Cloud, Development (web/ android studio/ react native/ software development)"
+"To what is, a pay-as-you-go model matches resources to need on an ongoing basis?",Utility. This eliminates waste and has the additional advantage of shifting risk from the consumer,"Cloud, Development (web/ android studio/ react native/ software development)"
+Name the computer code which will be used to implement load balancing?," Apache mod_proxy_balancer. Load balancing is often used to increase utilization and output, lower latency, cut back response time, and avoid system overload.","Cloud, Development (web/ android studio/ react native/ software development)"
+Name the service that concentrates on hardware follows the abduction as a Service model.,Infrastructure as a service.,"Cloud, Development (web/ android studio/ react native/ software development)"
+What is load balancing?Name the computer code which will be used to implement load balancing?,"Apache mod_proxy_balancer. Load balancing is often used to increase utilization and output, lower latency, cut back response time, and avoid system overload.","Cloud, Development (web/ android studio/ react native/ software development)"
+Why API’s is used in cloud services,It provides ease where the user doesn’t need to write the fully fledged program.It helps to make communication between one or more applications.Creates applications which further link the cloud services with other systems.,"Cloud, Development (web/ android studio/ react native/ software development)"
+Explain what is the use of “EUCALYPTUS” in cloud computing?,"EUCALYPTUS has an open source software infrastructure in cloud computing. It is used to add clusters in cloud computing platform. With the help of EUCALYPTUS public, private, and hybrid cloud can be built. It can produce it’s own data centres. Moreover, it can allow you to use its functionality to many other organizations.","Cloud, Development (web/ android studio/ react native/ software development)"
+ Explain the difference between cloud and traditional datacenters.?,"The expenditure of the traditional data center is expensive due to heating and hardware/software issues
+Cloud being scaled when there is an increase in demand. Mostly the expenditure is on the maintenance of the data centers, while this issues are not faced in cloud computing.","Cloud, Development (web/ android studio/ react native/ software development)"
+What are the uses of API’s in cloud services?,"API’s (Application Programming Interface are used to eliminate the necessity to write the complete programs.
+The instructions are provided to make communication between one or more applications.
+Creation of applications is made easy and access for the link of cloud services with other systems.","Cloud, Development (web/ android studio/ react native/ software development)"
+What are the characteristics of cloud architecture that differs from traditional cloud architecture?,"The characteristics are:
+
+ The hardware requirement is being provided as per the demand created for cloud architecture.
+Cloud architecture is capable of scaling the resource on demand created.
+Cloud architecture is capable of managing and handling dynamic workloads without any point of failures.","Cloud, Development (web/ android studio/ react native/ software development)"
+Explain AWS.,AWS stands for Amazon Web Service which is a collection of remote computing services also known as cloud computing. This technology of cloud computing is also known as IaaS or Infrastructure as a Service.,"Cloud, Development (web/ android studio/ react native/ software development)"
+ In cloud computing what are the different layers?,"The different layers of cloud computing are:
+a)      SaaS: Software as a Service (SaaS), it provides users access directly to the cloud application without installing anything on the system.
+b)      IaaS: Infrastructure as a service, it provides the infrastructure in terms of hardware like memory, processor speed etc.
+c)       PaaS: Platform as a service, it provides cloud application platform for the developers","Cloud, Development (web/ android studio/ react native/ software development)"
+ How important is the platform as a service?,Platform as a service or PAAS is an important layer in cloud computing.  It provides application platform for providers.  It is responsible for providing complete virtualization of the infrastructure layer and makes it work like a single server.,"Cloud, Development (web/ android studio/ react native/ software development)"
+In cloud architecture what are the different phases involved?,"a)      Launch Phase
+b)      Monitor Phase
+c)       Shutdown Phase
+d)      Cleanup Phase","Cloud, Development (web/ android studio/ react native/ software development)"
+What is Namespacing in JavaScript?," It is usually not a good practice to use global variables in programming languages including JavaScript. However, you may be forced to use global variables sometimes. So, JavaScript introduces the concept of namespacing which ties down a part of the code and register it with a unique name",Development (web/ android studio/ react native/ software development)
+How can you reduce page loading time?,"These are the following ways you can reduce web page loading time: reduce image size, remove unnecessary widgets, HTTP compression, placing CSS at the top and script referencing at the bottom or external files, reduce lookups, minimise redirects and caching.",Development (web/ android studio/ react native/ software development)
+What is the default border size of a Canvas?,There is no default border size of a Canvas. You can adjust using CSS,Development (web/ android studio/ react native/ software development)
+"     
+What is the difference between null value and undefined value?","Undefined means a variable has been declared but has not yet been assigned a value. On the other hand, null is an assignment value",Development (web/ android studio/ react native/ software development)
+What is Android SDK?,"To develop a mobile application, Android developers require some tools and this requirement is satisfied by “Android SDK” which is a set of tools that are used for developing or writing apps.
+It has a Graphical User Interface which emulates the Android environment. This emulator acts as an actual mobile device on which the developers write their code and then debug/test the same code to check if anything is wrong.",Development (web/ android studio/ react native/ software development)
+Name the languages supported for Android developmen,"Java is the widely used language for Android development.
+        It also supports C/C++ and when used with Android SDK, it improves the performance speed too.",Development (web/ android studio/ react native/ software development)
+"        
+Define and explain Android Framework.","  Android framework is a set of API’s using which the Android developers write code for the mobile apps. It contains the methods and classes to write the programming code.
+        Android framework includes a different set of tools to create image pane, text field, buttons, etc. It also includes “Activities” with which the user interacts and “Services”, which are the programs that run in the background. It is a package of different components like Intents, Broadcast Receivers, Content Providers, etc.",Development (web/ android studio/ react native/ software development)
+ What is meant by Services?,"Service is an Android component which runs in the background and acts independently. It does not provide any user interface.
+        Though the services are running behind the scene, a user can continue their work on different apps. Most of the time, the users are not aware of the services which are running in the background. These services allow the system to kill the process without interrupting the user’s ongoing work.",Development (web/ android studio/ react native/ software development)
+ What is an Intent?, Android has an Intent class when the user has to navigate from one Activity to another. Intent displays notifications from the device to the user and then the user can respond to the notification if required.,Development (web/ android studio/ react native/ software development)
+Explain Implicit and Explicit Intents.,Implicit Intent calls the system components while explicit Intents invoke the Activity class.,Development (web/ android studio/ react native/ software development)
+ What is the database used for Android platform?,"SQLite is the database that is used for Android platform. It is an open-source, serverless database.",Development (web/ android studio/ react native/ software development)
+What is ANR in Android?,"
+ ANR stands for Application Not Responding. It is a notification or pop-up displayed by the Android platform whenever the application is performing too many functions at a time and if it is suddenly not responding for a long time to the user action.",Development (web/ android studio/ react native/ software development)
+Explain Sensors in Android.,"Android-enabled devices have built-in Sensors which measures Orientation, Motion and other conditions.
+
+These sensors provide data with high accuracy, which will help to monitor positioning and movement of the device. Some of the sensors are hardware based and few are software based.",Development (web/ android studio/ react native/ software development)
+What is the main difference between a computer program and computer software?,"
+A computer program is a piece of programming code. It performs a well-defined task.  On the other hand, the software includes programming code, documentation and user guide.",Development (web/ android studio/ react native/ software development)
+What is verification and validation?,"Verification:
+Verification is a term that refers to the set of activities which ensure that software implements a specific function.
+
+Validation:
+It refers to the set of activities which ensure that software that has been built according to the need of clients.",Development (web/ android studio/ react native/ software development)
+In software development process what is the meaning of debugging?,Debugging is the process that results in the removal of error. It is very important part of the successful testing.,Development (web/ android studio/ react native/ software development)
+What are functional and non-functional requirements?,"Functional requirements are functional features which are expected by users from the proposed software product.
+
+Non-functional requirements are related to security, performance, look, and feel of the user interface.",Development (web/ android studio/ react native/ software development)
+What are software project estimation techniques available?,"Most widely used estimation techniques are:
+
+Decomposition technique
+Empirical technique",Development (web/ android studio/ react native/ software development)
+What are software requirements?,"Software requirements are a functional description of a proposed software system. It is assumed to be the description of the target system, its functionalities, and features.",Development (web/ android studio/ react native/ software development)
+Explain what is long polling?,"Long polling is a web application development pattern used to emulate pushing data from the server to the client.  When the long polling is used, the client sends a request to the server, and the connection remains intact until the server is ready to send data to the client. The connection will be closed only after the data is sent back to the client or connection timeout occurs.",Development (web/ android studio/ react native/ software development)
+Mention what is data cleansing?,"Data cleaning also referred as data cleansing, deals with identifying and removing errors and inconsistencies from data in order to enhance the quality of data.",Data Analytics
+Explain what is logistic regression?,Logistic regression is a statistical method for examining a dataset in which there are one or more independent variables that defines an outcome.,Data Analytics
+Mention what is the difference between data mining and data profiling?,"Data profiling: It targets on the instance analysis of individual attributes. It gives information on various attributes like value range, discrete value and their frequency, occurrence of null values, data type, length, etc.
+
+Data mining: It focuses on cluster analysis, detection of unusual records, dependencies, sequence discovery, relation holding between several attributes, etc.",Data Analytics
+Mention what are the data validation methods used by data analyst?,"Usually, methods used by data analyst for data validation are
+
+Data screening
+Data verification",Data Analytics
+Mention how to deal the multi-source problems?,"To deal the multi-source problems,
+
+Restructuring of schemas to accomplish a schema integration
+Identify similar records and merge them into single record containing all relevant attributes without redundancy",Data Analytics
+Explain what is Map Reduce?,"Map-reduce is a framework to process large data sets, splitting them into subsets, processing each subset on a different server and then blending results obtained on each.",Data Analytics
+ Explain what is Clustering? What are the properties for clustering algorithms?,"Clustering is a classification method that is applied to data. Clustering algorithm divides a data set into natural groups or clusters.
+Properties for clustering algorithm are
+Hierarchical or flat
+Iterative
+Hard and soft
+Disjunctive",Data Analytics
+Which imputation method is more favorable?,"Although single imputation is widely used, it does not reflect the uncertainty created by missing data at random.  So, multiple imputation is more favorable then single imputation in case of data missing at random.",Data Analytics
+Explain what is the criteria for a good data model?,"Criteria for a good data model includes
+
+It can be easily consumed
+Large data changes in a good model should be scalable
+It should provide predictable performance
+A good model can adapt to changes in requirements",Data Analytics
+What is the KNN imputation method?,This method is used to impute the missing attribute values which are imputed by the attribute values that are most similar to the attribute whose values are missing. The similarity of the two attributes is determined by using the distance functions.,Data Analytics
+What are the usual challenges a data analyst normally encounter?," Here are a few challenges:
+
+Illegal values
+Duplicate entries
+Trying to identify data that is overlapping
+Regular misspelling
+Irregular value misrepresentation",Data Analytics
+How can you deal with multi-source problems?," To answer this question, you need to know that you have to:
+Identify all records that are similar and put them together into a single record that contains the necessary attributes having no redundancy.
+Restructure schemas in order to achieve schema integration",Data Analytics
+Define K-mean Algorithm. ,"This is a very popular partitioning method where objects are classified into K groups. The clusters can be said to be spherical in the K-mean algorithm, the data points a centered around a cluster while their variance is similar.",Data Analytics
+Give an explanation of collaborative filtering.,Collaborative filtering can be said to be a simple algorithm used for creating a recommendation system that depends on the behavioral data of the user.,Data Analytics
+Explain the term series analysis.      ,"This is done in two domains – time domain and frequency domain. Time series analysis is when the output process is forecasted by analyzing data gotten previously using methods including log-linear regression, exponential smoothening, etc.",Data Analytics
+What is the role of a data model for any organization?,"With the help of a data model, you can always keep your client informed in advance for a time period. However, when you enter a new market then you are facing new challenges almost every day. A data model helps you in understanding these challenges in the best way and deriving the accurate outputs from the same.",Data Analytics
+What are the challenges during faced by the data analyst professionals?,"It could be poor formatted files, inconsistent data, duplicate entries, or messy data representation etc.",Data Analytics
+Explain what is Hierarchical Clustering Algorithm?,"Hierarchical clustering algorithm combines and divides existing groups, creating a hierarchical structure that showcase the order in which groups are divided or merged.",Data Analytics
+What is a hash table?,"In computing, a hash table is a map of keys to values. It is a data structure used to implement an associative array. It uses a hash function to compute an index into an array of slots, from which desired value can be fetched.",Data Analytics
+What steps are in an analytics project?,"The steps involved in an analysis project can be listed as:
+
+Problem identification
+Exploration of data
+Preparation of data
+Modeling
+Data Validation
+Implementation and tracking",Data Analytics
+What is meant by a Database?,"In simple terms, Database is a collection of data in some organized way to facilitate its user’s to easily access, manage and upload the data.",Database management (MySQL/ Firebase)
+What is the purpose of normalization in DBMS?,"Normalization is the process of analyzing the relational schemas which are based on their respective functional dependencies and the primary keys in order to fulfill certain properties. The properties include: To minimize the redundancy of the Data. To minimize the Insert, Delete and Update Anomalies.",Database management (MySQL/ Firebase)
+What is the purpose of SQL?,SQL stands for Structured Query Language whose main purpose is to interact with the relational databases in the form of inserting and updating/modifying the data in the database.,Database management (MySQL/ Firebase)
+Explain the concepts of a Primary key and Foreign Key.,Primary Key is used to uniquely identify the records in a database table while Foreign Key is mainly used to link two or more tables together as this is a particular field(s) in one of the database tables which are the primary key of some other table.,Database management (MySQL/ Firebase)
+What are the main differences between Primary key and Unique Key?,"The main difference between the Primary key and Unique key is that the Primary key can never have a null value while the Unique key may consist of null value. In each table, there can be only one primary key while there can be more than one unique key in a table.",Database management (MySQL/ Firebase)
+What is the concept of sub-query in terms of SQL?,Subquery or Inner query or a Nested query is a query within another SQL query and embedded within the WHERE clause. A subquery is used to return data that will be used in the main query as a condition to further restrict the data to be retrieved.,Database management (MySQL/ Firebase)
+What is the main difference between UNION and UNION ALL?,"UNION and UNION ALL are used to join the data from 2 or more tables but UNION removes duplicate rows and picks the rows which are distinct after combining the data from the tables whereas UNION ALL does not remove the duplicate rows, it just picks all the data from the tables.",Database management (MySQL/ Firebase)
+"Explain Entity, Entity Type, and Entity Set in DBMS?","Entity is an object, place or thing which has its independent existence in the real world and about which data can be stored in a database. Entity Type is a collection of the entities which have the same attributes. Entity Set is a collection of the entities of the same type.",Database management (MySQL/ Firebase)
+What are the different levels of abstraction in the DBMS?,There are 3 levels of data abstraction in the DBMS. They include: Physical Level: This is the lowest level of the data abstraction which states how the data is stored in the database. Logical Level: This is the next level of the data abstraction which states the type of the data and the relationship among the data that is stored in the database. View Level: This is the highest level in the data abstraction which shows/states only a part of the database.,Database management (MySQL/ Firebase)
+What integrity rules exist in the DBMS?,There are 2 major integrity rules that exist in the DBMS. Entity Integrity: This states a very important rule that value of a Primary key can never have a NULL value. Referential Integrity: This rule is related to the Foreign key which states that either the value of a Foreign key is a NULL value or it should be the primary key of any other relation.,Database management (MySQL/ Firebase)
+What is E-R model in the DBMS?,E-R model is known as an Entity-Relationship model in the DBMS which is based on the concept of the Entities and the relationship that exists among these entities.,Database management (MySQL/ Firebase)
+What is a functional dependency in the DBMS?,This is basically a constraint which is useful in describing the relationship among the different attributes in a relation.,Database management (MySQL/ Firebase)
+What is 1NF in the DBMS?,1NF is known as the First Normal Form. This is the easiest form of the normalization process which states that the domain of an attribute should have only atomic values. The objective of this is to remove the duplicate columns that are present in the table.,Database management (MySQL/ Firebase)
+What is 2NF in the DBMS?,2NF is the Second Normal Form. Any table is said to have in the 2NF if it satisfies the following 2 conditions: A table is in the 1NF. Each non-prime attribute of a table is said to be functionally dependent in totality on the primary key.,Database management (MySQL/ Firebase)
+What is 3NF in the DBMS?,3NF is the Third Normal Form. Any table is said to have in the 3NF if it satisfies the following 2 conditions: A table is in the 2NFm. Each non-prime attribute of a table is said to be non-transitively dependent on every key of the table.,Database management (MySQL/ Firebase)
+How is the pattern matching done in the SQL?,"With the help of the LIKE operator, pattern matching is possible in the SQL.’%’ is used with the Like operator when it matches with the 0 or more characters and ‘_’ is used to match the one particular character.",Database management (MySQL/ Firebase)
+What is a join in the SQL?,A Join is one of the SQL statements which is used to join the data or the rows from 2 or more tables on the basis of a common field/column among them.,Database management (MySQL/ Firebase)
+What is meant by trigger?,"Trigger is one of the very important codes or programs which get executed automatically in response to the events that occur in a table or a view. Eg: If a new record is inserted in an employee database then the data gets created automatically in the related tables like salary, department and roles tables.",Database management (MySQL/ Firebase)
+What is RDBMS?,RDBMS is the Relational Database Management System which contains data in the form of the tables and data is accessed on the basis of the common fields among the tables.,Database management (MySQL/ Firebase)
+"What are the differences between DDL, DML and DCL in SQL?","Following are some details of three. DDL stands for Data Definition Language. SQL queries like CREATE, ALTER, DROP and RENAME come under this. DML stands for Data Manipulation Language. SQL queries like SELECT, INSERT and UPDATE come under this. DCL stands for Data Control Language. SQL queries like GRANT and REVOKE come under this.",Database management (MySQL/ Firebase)
+What impacts will the Internet of Things (IoT) have on Health Care Sector?,"   IoT has many applications inside the healthcare field, in both fitness tracking and treatment, together with telemedicine and telehealth. Applications may additionally contain the usage of a medical era and the internet to provide lengthy-distance health care and training. Medical devices, which may be wearable or non-wearable, or maybe implantable, injectable, or ingestible, can allow far off monitoring of an affected person’s important signs, persistent situations, or different indicators of health and wellbeing.
+        ",Networks (IoT)
+ What are the important Components of an Internet of Things?," 1. Hardware- This will make physical items responsive and give them functionality to store records and respond to instructions.
+        2. Software Program – Allowing the facts collection, storage, processing, manipulating and instructing.                                
+        3. Conversation Infrastructure – Most essential of all is the communication infrastructure which consists of protocols and technologies which allow two bodily gadgets to exchange information.        
+",Networks (IoT)
+ What is the Internet of Everything?,"   The Internet of Everything is the intelligent connection of people, process, data, and things. ",Networks (IoT)
+What risks and challenges should be considered in the Internet of Everything?,"1. Privacy
+        2. Security
+        3. Network congestion
+        4. Electricity consumption at the peaks",Networks (IoT)
+What is Industrial Internet of Things (IoT)?,"      The usage of an internet of things(IoT) technologies in production is The Industrial Internet of Things (IIoT).
+        Additionally called the commercial internet, IIoT incorporates system gaining knowledge of and massive information generation, harnessing the sensor data, device-to-system (m2m) communique and automation technology thahasve existed in industrial settings for years.
+        ",Networks (IoT)
+Why should we care about the Industrial IoT?,"The industrial iot allows the smart gadget to your vehicle that brakes robotically when it detects an impediment in the street. It permits the affected person monitoring gadget in hospitals to music everything from an affected person’s coronary heart rate to their remedy intake. It allows a mining device or space robotic to securely and effectively perform where people can’t.
+",Networks (IoT)
+What is Wi-Fi Protocol for an Internet of Things (IoT)?,"   Counted because the maximum mature wi-fi radio generation, wireless is important communication era selected for iot applications. Already existing protocols like wps make the mixing of IOT gadgets less complicated with the existing network",Networks (IoT)
+What is Industrial Internet of Things (IoT)?,"  The usage of an internet of things(IoT) technologies in production is The Industrial Internet of Things (IIoT).
+        Additionally called the commercial internet, IIoT incorporates system gaining knowledge of and massive information generation, harnessing the sensor data, device-to-system (m2m) communique and automation technology thahasve existed in industrial settings for years.   ",Networks (IoT)
+         How does IoT relate to the net of factors?,"The “net of the whole thing” builds on the inspiration of the “net of factors” by adding community intelligence that lets in convergence, orchestration, and visibility throughout previously disparate structures.        
+        ",Networks (IoT)
+.Explain the IoT protocol stack.,"    IoT has 4 protocol layers:
+        -Sensing and information: Includes various smart sensor devices based on GPS, RFID, Wi-Fi etc.
+        -Network connectivity: Layer is based on a wired and wireless network such as WLAN, WMAN, Ethernet, optical fiber and more.
+        -Information processing layer
+        -Application layer
+        ",Networks (IoT)
+. Explain Bluetooth Low Energy protocol for an IOT?,"Nokia originally introduced this protocol as wibree in 2006. Additionally, known as Bluetooth smart this protocol presents the same range coverage with a good deal of decreased strength intake because of the unique Bluetooth. It has comparable bandwidth with narrow spacing utilized by ZigBee. Low electricity latency and decrease complexity makeable greater appropriate to include into low-cost microcontrollers.
+       ",Networks (IoT)
+ Explain what is the role does the network play in the Internet of Everything?," Well, the network itself plays an important role in the word of the Internet of Things, it is a driving factor for bringing all the different systems together which work hand in hand and show us a better future or betterment in every process.
+        It provides an intelligent, manageable and secure infrastructure for better execution. ",Networks (IoT)
+. How is Internet of Things (IoT) different from the Industrial Internet of Things (IIoT)?,"IoT systems tend to be everyday consumer-level devices connected to one another and made smarter and slightly self-aware such as wearable fitness tools, smart home and automatic pet feeders. On the other hand, Industrial IoT connects equipment and systems in industries and businesses where failures can be disastrous such as aerospace and defence, healthcare and energy.
+        ",Networks (IoT)
+. Why is the Internet of Everything happening now?,"The explosion of new connections joining the Internet of Everything is driven by the development of IP-enabled devices, the increase in global broadband availability and the advent of IPv6.
+                ",Networks (IoT)
+Why is the Internet of Everything important?,"The Internet of Everything brings together people, process, data and things to make networked connections more relevant and valuable than ever before – turning information into actions that create new capabilities, richer experiences and unprecedented economic opportunity for businesses, individuals and countries.                
+                ",Networks (IoT)
+"
+What impacts will the Internet of Things (IoT) have?"," Among those commonly mentioned are agriculture, energy, health care, manufacturing, and transportation. Significant impacts may also be felt more broadly on economic growth, infrastructure and cities, and individual consumers. However, both policy and technical challenges, including security and privacy issues, might inhibit the growth and impact of IoT innovations.
+        ",Networks (IoT)
+What is the biggest difference between Internet of Things and sensor businesses?,"A sensor business might not need an active internet connection and it can still work without it. But, when it comes to the Internet of Things it has a control side associated with it which is necessary to monitor, exchange the information from the sensor to the central unit within an active network. This is the main difference between the internet of things and the sensor businesses.
+        ",Networks (IoT)
+What is Bluegiga APX4 protocol for the Internet of Things (IOT)?,The Bluegiga APX4 is a fantastic solution which actually supports both the BLE platform and WiFI and it is based on 450MHz ARM9 processor.     ,Networks (IoT)
+. What are the different sectors where the Internet of Things can actually add value to the current processes?,"Agriculture
+                -Healthcare
+                -Security
+                -Manufacturing
+                -Transportation
+                -Energy
+                -Information development",Networks (IoT)
+What is the biggest difference between Internet of Things and sensor businesses?," A sensor business might not need an active internet connection and it can still work without it. But, when it comes to the Internet of Things it has a control side associated with it which is necessary to monitor, exchange the information from the sensor to the central unit within an active network. This is the main difference between the internet of things and the sensor businesses.",Networks (IoT)
+.What is a shell?,"Shell is an interface between the user and the kernel. Even though there can be only one kernel; a system can have many shell running simultaneously. So, whenever a user enters a command through the keyboard, the shell communicates with the kernel to execute it and then display the output to the user.",Linux/Unix/Shell
+What are the different types of commonly used shells on a typical Linux system?,"csh,ksh,bash,Bourne . The most commonly used and advanced shell used today is ""Bash"" .",Linux/Unix/Shell
+What is the equivalent of a file shortcut that we have a window on a Linux system?,"Shortcuts are created using ""links"" on Linux. There are two types of links that can be used namely ""soft link"" and ""hard link"".",Linux/Unix/Shell
+What is the difference between soft and hard links?,Soft links are link to the file name and can reside on different filesytem as well; however hard links are link to the inode of the file and have to be on the same filesytem as that of the file. Deleting the original file makes the soft link inactive (broken link) but does not affect the hard link (Hard link will still access a copy of the file),Linux/Unix/Shell
+What is the difference between UNIX and LINUX?,"Unix originally began as a propriety operating system from Bell Laboratories, which later on spawned into different commercial versions. On the other hand, Linux is free, open source and intended as a non-propriety operating system for the masses.",Linux/Unix/Shell
+What is Linux Kernel?,The Linux Kernel is a low-level systems software whose main role is to manage hardware resources for the user. It is also used to provide an interface for user-level interaction.,Linux/Unix/Shell
+What is a swap space?,Swap space is a certain amount of space used by Linux to temporarily hold some programs that are running concurrently. This happens when RAM does not have enough memory to hold all programs that are executing.,Linux/Unix/Shell
+What is LILO?,LILO is a boot loader for Linux. It is used mainly to load the Linux operating system into main memory so that it can begin its operations.,Linux/Unix/Shell
+What is the advantage of open source?,What is the advantage of open source?,Linux/Unix/Shell
+Describe the root account.,"The root account is like a systems administrator account and allows you full control of the system. Here you can create and maintain user accounts, assigning different permissions for each account. It is the default account every time you install Linux.",Linux/Unix/Shell
+What is GUI?,"GUI, or Graphical User Interface, make use of images and icons that users click and manipulate as a way of communicating with the computer. Instead of having to remember and type commands, the use of graphical elements makes it easier to interact with the system, as well as adding more attraction through images, icons, and colors.",Linux/Unix/Shell
+What is CLI?,"CLI is short for Command Line Interface. This interface allows the user to type declarative commands to instruct the computer to perform operations. CLI offers greater flexibility. However, other users who are already accustomed to using GUI find it difficult to remember commands including attributes that come with it.",Linux/Unix/Shell
+What are symbolic links?,"Symbolic links act similarly to shortcuts in Windows. Such links point to programs, files or directories. It also allows you instant access to it without having to go directly to the entire pathname.",Linux/Unix/Shell
+What is the maximum length for a filename under Linux?,"Any filename can have a maximum of 255 characters. This limit does not include the path name, so therefore the entire pathname and filename could well exceed 255 characters.",Linux/Unix/Shell
+What is the pwd command?,The pwd command is short for print working directory command.,Linux/Unix/Shell
+What are daemons?,"Daemons are services that provide several functions that may not be available under the base operating system. Its main task is to listen for service request and at the same time to act on these requests. After the service is done, it is then disconnected and waits for further requests.",Linux/Unix/Shell
+What are environmental variables?,"Environmental variables are global settings that control the shell's function as well as that of other Linux programs. Another common term for environmental variables is global shell variables.
+",Linux/Unix/Shell
+What is redirection?,Redirection is the process of directing data from one output to another. It can also be used to direct an output as an input to another process.,Linux/Unix/Shell
+How do you terminate an ongoing process?,"Every process in the system is identified by a unique process id or pid. Use the kill command followed by the pid to terminate that process. To terminate all process at once, use kill 0.",Linux/Unix/Shell
+What is UNIX?,It is a portable operating system that is designed for both efficient multi-tasking and multi-user functions. Its portability allows it to run on different hardware platforms. It was written is C and lets users do processing and control under a shell.,Linux/Unix/Shell
+What are filters?,"The term filter is often used to refer to any program that can take input from standard input, perform some operation on that input, and write the results to standard output. A Filter is also any program that can be used between two other programs in a pipeline.",Linux/Unix/Shell
+What is Kernel?,"Kernel is the UNIX operating system is the master program that controls the computer's resources, allotting them to different users and performing different tasks. However, the kernel doesn't deal directly with a user. Instead, it starts up a separate, interactive program, called a shell, for each user when he/she logs on.",Linux/Unix/Shell
+Differentiate multiuser from multitask.,Multiuser means that more than one person can use the computer at the same time. Multitask means that even a single user can have the computer work on more than one task or program at the same time.,Linux/Unix/Shell
